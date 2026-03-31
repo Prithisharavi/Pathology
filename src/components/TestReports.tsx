@@ -8,18 +8,18 @@ export default function TestReports() {
     <div className="p-8 max-w-[1400px] mx-auto space-y-8 animate-in fade-in duration-300">
       
       {/* Hero header */}
-      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] p-8 text-white shadow-sm flex items-center justify-between">
+      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] px-8 py-6 text-white shadow-sm flex items-center justify-between">
         <div>
-          <p className="text-blue-100 text-sm font-medium mb-3">Pathology Command Center</p>
-          <h1 className="text-3xl font-bold mb-3 tracking-tight">Diagnostic Queue</h1>
-          <div className="flex items-center text-blue-100 text-sm">
+          <p className="text-white/80 text-[13px] font-medium mb-1">Pathology Command Center</p>
+          <h1 className="text-[26px] font-bold mb-1 tracking-tight">Diagnostic Queue</h1>
+          <div className="flex items-center text-white/90 text-sm">
             <Clock className="w-4 h-4 mr-2" />
             Manage and process active clinical orders in real-time.
           </div>
         </div>
         <button className="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-5 py-2.5 rounded-lg font-medium transition-all flex items-center gap-2 backdrop-blur-sm">
           <Plus className="w-4 h-4" />
-          + New report
+          New report
         </button>
       </div>
 

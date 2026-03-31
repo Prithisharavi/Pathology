@@ -28,12 +28,12 @@ const Layout = () => {
       <aside className="w-[260px] bg-white border-r border-slate-200 flex flex-col z-10 shrink-0 shadow-[2px_0_8px_-4px_rgba(0,0,0,0.05)]">
         <div className="h-[72px] flex items-center px-6 border-b border-transparent">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#0070F3] rounded-xl flex items-center justify-center text-white font-bold text-xl leading-none shadow-sm">
-              +
+            <div className="w-[34px] h-[34px] bg-[#009AF1] rounded-lg flex items-center justify-center text-white pb-0.5 shadow-sm">
+              <span className="text-2xl font-medium leading-none">+</span>
             </div>
             <div>
-              <div className="text-[#0070F3] font-bold text-sm tracking-tight leading-tight">MoviCloud Labs</div>
-              <div className="text-slate-400 text-[10px] leading-tight">Hospital management system</div>
+              <div className="text-[#009AF1] font-bold text-[15px] tracking-tight leading-tight">MoviCloud Labs</div>
+              <div className="text-slate-400 text-[10px] font-medium leading-tight">Hospital management system</div>
             </div>
           </div>
         </div>

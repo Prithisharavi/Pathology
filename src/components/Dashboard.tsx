@@ -5,16 +5,17 @@ export default function Dashboard() {
     <div className="p-8 max-w-[1400px] mx-auto space-y-8 animate-in fade-in duration-300">
       
       {/* Hero header */}
-      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] p-8 text-white shadow-sm relative overflow-hidden">
-        <div className="relative z-10">
-          <p className="text-blue-100 text-sm font-medium mb-3">Pathology Command Center</p>
-          <h1 className="text-3xl font-bold mb-3 tracking-tight">Good Afternoon, Pathologist</h1>
-          <div className="flex items-center text-blue-100 text-sm">
-            <Calendar className="w-4 h-4 mr-2" />
-            Monday, October 23, 2023
+      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] px-8 py-6 text-white shadow-sm relative overflow-hidden">
+        <div className="relative z-10 flex items-center justify-between">
+          <div>
+            <p className="text-white/80 text-[13px] font-medium mb-1">Pathology Command Center</p>
+            <h1 className="text-[26px] font-bold mb-1 tracking-tight">Good Afternoon, Pathologist</h1>
+            <div className="flex items-center text-white/90 text-[14px]">
+              <Calendar className="w-4 h-4 mr-1.5" />
+              Monday, October 23, 2023
+            </div>
           </div>
         </div>
-        {/* Subtle background decoration could go here */}
       </div>
 
       <div>

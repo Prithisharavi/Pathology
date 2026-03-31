@@ -13,13 +13,13 @@ export default function Settings() {
   return (
     <div className="p-8 max-w-[1400px] mx-auto space-y-8 animate-in fade-in duration-300">
       {/* Hero header */}
-      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] p-8 text-white shadow-sm flex items-center justify-between">
+      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] px-8 py-6 text-white shadow-sm flex items-center justify-between">
         <div>
-          <p className="text-blue-100 text-sm font-medium mb-3">System Configuration</p>
-          <h1 className="text-3xl font-bold mb-3 tracking-tight">Platform Settings</h1>
-          <div className="flex items-center text-blue-100 text-sm">
+          <p className="text-white/80 text-[13px] font-medium mb-1">Pathology Command Center</p>
+          <h1 className="text-[26px] font-bold mb-1 tracking-tight">Profile Settings</h1>
+          <div className="flex items-center text-white/90 text-sm">
             <Shield className="w-4 h-4 mr-2" />
-            Manage your pathology center preferences and account configurations.
+            Update your profile image and account credentials
           </div>
         </div>
       </div>
