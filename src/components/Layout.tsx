@@ -73,19 +73,20 @@ const Layout = () => {
       {/* Main Content */}
       <main className="flex-1 flex flex-col h-screen overflow-hidden relative">
         {/* Topbar */}
-        <header className="h-[72px] bg-white border-b border-slate-200 flex items-center justify-between px-6 z-10 shrink-0 shadow-[0_2px_8px_-4px_rgba(0,0,0,0.05)]">
-          <div className="flex items-center gap-6 flex-1">
-            <Menu className="w-5 h-5 text-slate-400 cursor-pointer hover:text-slate-600" />
-            <div className="max-w-[480px] w-full relative">
+        <header className="h-[72px] relative bg-white border-b border-slate-200 shadow-[0_2px_8px_-4px_rgba(0,0,0,0.05)]">
+          <div className="absolute inset-0 flex items-center justify-center px-6">
+            <div className="relative max-w-[660px] w-full">
               <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
               <input 
                 type="text" 
-                placeholder="Search reports, batches, or patients..." 
-                className="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0070F3]/20 focus:border-[#0070F3] transition-all text-sm h-10 text-slate-600 placeholder:text-slate-400"
+                placeholder="Search medicines, batches, or patients..." 
+                className="w-full pl-10 pr-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0070F3]/20 focus:border-[#0070F3] transition-all text-sm h-10 text-slate-700 placeholder:text-slate-400"
               />
             </div>
           </div>
-          <div className="flex items-center gap-5 ml-4">
+          <div className="relative z-10 flex items-center justify-between h-full px-6">
+            <Menu className="w-5 h-5 text-slate-400 cursor-pointer hover:text-slate-600" />
+            <div className="flex items-center gap-5">
              <button className="relative text-slate-400 hover:text-slate-600 transition-all p-1">
               <Bell className="w-5 h-5" />
               <span className="absolute top-1 right-1.5 w-2 h-2 bg-rose-500 rounded-full border border-white"></span>
@@ -95,6 +96,7 @@ const Layout = () => {
               <span className="text-slate-600 font-medium">Senior Pathologist</span>
             </div>
           </div>
+        </div>
         </header>
 
         <div className="flex-1 overflow-auto bg-[#F8FAFC]">

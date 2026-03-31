@@ -8,7 +8,7 @@ export default function Patients() {
     <div className="p-8 max-w-[1400px] mx-auto space-y-8 animate-in fade-in duration-300">
       
       {/* Hero header */}
-      <div className="bg-[#009AF1] rounded-[16px] p-8 text-white shadow-sm flex items-center justify-between">
+      <div className="bg-gradient-to-r from-[#0070F3] via-[#009AF1] to-[#50C3FF] rounded-[16px] p-8 text-white shadow-sm flex items-center justify-between">
         <div>
           <p className="text-blue-100 text-sm font-medium mb-3">Hospital Management</p>
           <h1 className="text-3xl font-bold mb-3 tracking-tight">Patient Directory</h1>
